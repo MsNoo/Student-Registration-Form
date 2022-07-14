@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <!-- <link rel="stylesheet" href="./CSS/reset.css"> -->
+    <link rel="icon" href="./Images/tabIcon.png">
+    <title>Student registration form</title>
+</head>
+
+<body id="containerBody">
+
+    <main id="containerMain" class="conteinerForm">
+        
+        <!-- <form action="./action_page.php"> -->
+
+        <p style="font-size: 22px; color: #1c3a57; height: 12px;"><b>Student Registration Form</b></p>
+        <p style="font-size: 12px; color: #1c3a57; margin-bottom: 40px ;">Fill out the form carefully for registration
+            </div>
+
+            <!-- Student name part -->
+        <p class="fontStyle">Student Name</p>
+        <div class="nameLine">
+            <input class="textboxFeatures" type="text" id="firstName" size="15">
+            <label class="smallFontStyle" style="display:block;" for="firstName">First Name</label>
+        </div>
+
+        <div class="nameLine">
+            <input class="textboxFeatures" type="text" id="middleName" size="15">
+            <label class="smallFontStyle" style="display:block;" for="middleName">Middle Name</label>
+        </div>
+
+        <div class="nameLine">
+            <input class="textboxFeatures" type="text" id="lastName" size="15">
+            <label class="smallFontStyle" style="display:block;" for="lastName">Last Name</label>
+        </div>
+
+        <!-- 1. Birth Date part -->
+        <div class="nameLine">
+            <p class="fontStyle">Birth Date</p>
+            <div class="nameLine">
+                <select class="selectBoxFeatures" name="month" id="month">
+                    <option value=""></option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                </select>
+                <label class="smallFontStyle" style="display:block;" for="month">Month</label>
+            </div>
+
+            <div class="nameLine">
+                <select class="selectBoxFeatures" name="day" id="day">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <label class="smallFontStyle" style="display:block;" for="day">Day</label>
+            </div>
+
+            <div class="nameLine">
+                <select class="selectBoxFeatures" name="year" id="year">
+                    <option value=""></option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                </select>
+                <label class="smallFontStyle" style="display:block;" for="year">Year</label>
+            </div>
+        </div>
+
+        <!-- 2. Gender part -->
+        <div class="nameLine">
+            <p class="fontStyle m-l-s">Gender</p>
+            <div class="m-l-s">
+                <select style="color:grey;" class="selectGenderFeatures" name="gender" id="gender">
+                    <option style="display: none;" value="0">Please Select</option>
+                    <option style="color:black;" value="male">Male</option>
+                    <option style="color:black;" value="female">Female</option>
+                    <option style="color:black;" value="other">Other</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- 3. Address part -->
+        <p class="fontStyle">Address</p>
+
+        <input class="addressBoxFeatures" type="text" id="text1">
+        <label class="smallFontStyle" style="display:block;" for="text1">Street Address</label>
+
+        <input class="addressBoxFeatures" type="text" id="text2">
+        <label class="smallFontStyle" style="display:block;" for="text2">Street Address Line 2</label>
+
+        <div class="nameLine m-r-s">
+            <input class="addressBoxFeatures2" type="text" id="text3">
+            <label class="smallFontStyle" style="display:block;" for="text3">City</label>
+        </div>
+
+        <div class="nameLine">
+            <input class="addressBoxFeatures2" type="text4">
+            <label class="smallFontStyle" style="display:block;" for="text4">State/Province</label>
+        </div>
+
+        <!-- 4. Comment part -->
+        <div style="display: block;">
+            <div class="m-t-s">
+                <textarea class="textareaFeatures" name="" id="" cols="52" rows="3"></textarea>
+                <label class="smallFontStyle" style="display:block;" for="comment">Comment</label>
+            </div>
+
+        <!-- 3. Button part -->
+            <div>
+                <button>Submit</button>
+            </div>
+        </div>
+
+        <!-- </form>  -->
+    </main>
+</body>
+</html>
